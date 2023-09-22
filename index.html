@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="Stylesheet" href="style.css" />
+    <title>Para Nadine</title>
+  </head>
+  <body>
+    <audio id="miMusica" autoplay preload="auto">
+      <source src="flores.mp3" type="audio/mp3" />
+      Tu navegador no admite la reproducción de audio.
+    </audio>
+    <div class="container">
+      <div class="row">
+        <div class="flower ">
+          <div class="text-above mb-5">
+            <p>Te amo Nadine 💛</p>
+          </div>
+          <div class="mid"></div>
+          <div class="Petal1 p1"></div>
+          <div class="Petal1 p2"></div>
+          <div class="Petal1 p3"></div>
+          <div class="Petal1 p4"></div>
+          <div class="Petal2 p1"></div>
+          <div class="Petal2 p2"></div>
+          <div class="Petal2 p3"></div>
+          <div class="Petal2 p4"></div>
+          <div class="Petal3 p1"></div>
+          <div class="Petal3 p2"></div>
+          <div class="Petal3 p3"></div>
+          <div class="Petal3 p4"></div>
+          <div class="text-below">
+            <p>M y N</p>
+            <p>dale play</p>
+            <div class="w-100 d-flex justify-content-center">
+              <button id="botonReiniciar" class="btn btn-primary mr-1 ">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 7H17V17H7V7Z" fill="currentColor" />
+                </svg>
+              </button>
+            <div class="col-1"></div>
+              <button id="botonPausa" class=" btn btn-primary ml-1">
+                <span id="iconoPausa" style="display: none">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M11 7H8V17H11V7Z" fill="currentColor" />
+                    <path d="M13 17H16V7H13V17Z" fill="currentColor" />
+                  </svg>
+                </span>
+                <span id="iconoReproducir">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M8 5V19L19 12L8 5Z" fill="currentColor" />
+                  </svg>
+                </span>
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

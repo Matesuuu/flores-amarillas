@@ -1,0 +1,177 @@
+body {
+  background-color: #000;
+  margin: 0px;
+  padding: 0;
+  height: 100vh; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+.flower {
+  margin-top: -10%;
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+  background-color: #000; 
+
+  animation: pulsate 2s infinite;
+}
+
+.text-above,
+.text-below {
+    position: absolute;
+    text-wrap: balance;
+    
+    text-align: center;
+    color: #fff; 
+    font-size: 25px; 
+}
+
+.text-above {
+    top: -50%; 
+}
+
+
+
+.text-below {
+    bottom: -80%; 
+}
+@keyframes pulsate {
+  0% {
+      transform: scale(1.5);
+  }
+  50% {
+      transform: scale(1.6);
+  }
+  100% {
+      transform: scale(1.5);
+  }
+}
+  .mid {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    background: radial-gradient(circle, #000, #ff5e00, #000);
+  
+    z-index: 4;
+  
+    background-size: 5px 5px;
+  
+    filter: drop-shadow(0 0 8px #682600);
+  }
+
+  img,
+  svg {
+    vertical-align:top !important;
+  }
+
+  button{
+    border-radius: 100%;
+    border: 2px solid #ffbb00 !important;
+    background: black!important;
+    color: #ffbb00!important;
+}
+button:focus:not(:focus-visible) {
+    outline: 0!important;
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: #ffbb00!important;
+    background-color: black !important;
+    border-color: #ffbb00!important;
+    box-shadow: 0 0 0 0.25rem #ffbb00 !important;
+}
+.btn-primary:hover {
+    color: #ffbb00 !important; 
+    background-color: black !important;
+    border-color: #ffbb00 !important;
+}
+  
+  .Petal1 {
+    position: absolute;
+    left: 40px;
+    z-index: 3;
+  
+    width: 120px;
+    height: 30px;
+    border-radius: 50%;
+  
+    background: radial-gradient(circle, #ff5e00, #ffbb00);
+  
+    filter: drop-shadow(0 0 5px #e05200);
+  }
+  
+  .Petal1.p1 {
+    transform: rotate(22.5deg);
+  }
+  .Petal1.p2 {
+    transform: rotate(67.5deg);
+  }
+  .Petal1.p3 {
+    transform: rotate(110.5deg);
+  }
+  .Petal1.p4 {
+    transform: rotate(157.5deg);
+  }
+  
+  .Petal2 {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+  
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+  
+    background: radial-gradient(circle, #ff5e00, #fbd702);
+  
+    filter: drop-shadow(0 0 5px #e05200);
+  }
+  
+ .Petal2.p1 {
+    transform: rotate(120deg);
+  }
+  
+  .Petal2.p2 {
+    transform: rotate(90deg);
+  }
+  .Petal2.p3 {
+    transform: rotate(45deg);
+  }
+  
+  .Petal2.p4 {
+    transform: rotate(135deg);
+  }
+  
+  .Petal3 {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+  
+    width: 200px;
+    height: 40px;
+    border-radius: 50%;
+  
+    background: radial-gradient(circle, #ff5e00, #fbd702);
+  
+    filter: drop-shadow(0 0 2px #fbd702);
+  }
+  
+  .Petal3.p1 {
+    transform: rotate(22.5deg);
+  }
+  .Petal3.p2 {
+    transform: rotate(67.5deg);
+  }
+  .Petal3.p3 {
+    transform: rotate(110.5deg);
+  }
+  .Petal3.p4 {
+    transform: rotate(157.5deg);
+  }
